@@ -333,6 +333,7 @@ li button:hover {
         font-size: 14px;
         padding: 10px;
     }
+
 }
 
 /* ==================== FOOTER ==================== */
@@ -340,7 +341,7 @@ footer {
     background: #fef6e4;
     color: #716040;
     text-align: center;
-    padding: 15px 10px;
+    padding: auto;
     margin-top: 40px;
     border-top: 2px solid #eaddcf;
     font-size: 14px;
