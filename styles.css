@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eaddcf;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 .container {
@@ -369,3 +369,4 @@ body {
 .container {
     flex: 1; /* pushes footer down */
 }
+
