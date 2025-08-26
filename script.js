@@ -1,7 +1,7 @@
 let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
 // Set today's date as default
-document.getElementById("date").valueAsDate = new Date();
+//document.getElementById("date").valueAsDate = new Date();
 
 document
   .getElementById("expense-form")
@@ -18,7 +18,7 @@ document
       updateTotal();
       this.reset();
       // Reset date to today after form submission
-      document.getElementById("date").valueAsDate = new Date();
+      //document.getElementById("date").valueAsDate = new Date();
     }
   });
 
@@ -180,3 +180,4 @@ function saveToLocalStorage() {
 // Initial render
 renderExpenses();
 updateTotal();
+
