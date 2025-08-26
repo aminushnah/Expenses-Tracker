@@ -354,10 +354,17 @@ footer p {
 }
 
 
-/* Make footer stick to bottom if page is short */
+/* Layout fix for sticky footer */
+html, body {
+    height: 100%; /* make body take full height */
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
+.container {
+    flex: 1; /* pushes footer down */
+}
