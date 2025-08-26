@@ -371,7 +371,3 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
-.container {
-    flex: 1;
-}
