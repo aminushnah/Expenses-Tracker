@@ -359,6 +359,7 @@ footer p {
 html, body {
     height: 100%; /* make body take full height */
     margin: 0;
+    padding: 20px;
 }
 
 body {
@@ -369,4 +370,5 @@ body {
 .container {
     flex: 1; /* pushes footer down */
 }
+
 
