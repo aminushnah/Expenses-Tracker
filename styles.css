@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eaddcf;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .container {
@@ -365,13 +365,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 0;
 }
 
 .container {
     flex: 1; /* pushes footer down */
 }
+
 
 
 
