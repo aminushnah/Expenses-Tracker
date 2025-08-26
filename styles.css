@@ -334,3 +334,44 @@ li button:hover {
         padding: 10px;
     }
 }
+
+/* ==================== FOOTER ==================== */
+footer {
+    background: #fef6e4;
+    color: #716040;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    border-top: 2px solid #eaddcf;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+}
+
+footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+footer a {
+    color: #8c7851;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #716040;
+    text-decoration: underline;
+}
+
+/* Make footer stick to bottom if page is short */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
