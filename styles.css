@@ -7,7 +7,7 @@ body {
 
 .container {
     max-width: 600px;
-    width: 100%;
+    width: 90%; /* instead of 100% */
     margin: 50px auto;
     background: #fef6e4;
     padding: 20px;
