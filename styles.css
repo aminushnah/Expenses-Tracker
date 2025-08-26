@@ -353,3 +353,15 @@ footer p {
     font-weight: 500;
 }
 
+
+/* Make footer stick to bottom if page is short */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
